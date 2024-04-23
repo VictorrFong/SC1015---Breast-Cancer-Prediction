@@ -30,6 +30,7 @@ Hence we would like to find a optimal model that accurately predicts the maligna
 - Logistic Regression model - sklearn
 - Random Forest classifier - sklearn
 - K-Nearest Neighbours classifier - sklearn
+- Using GridSearchCV to do hyperparameter tuning
 
 ## References
 https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data
