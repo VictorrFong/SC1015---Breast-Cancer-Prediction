@@ -27,7 +27,7 @@ Hence we would like to find an optimal model that accurately predicts the malign
 - Outliers Detection using IQR and Z-score thresholding.
 - Considerations for Data Balancing.
 - Feature selection:
-- Making use of selectKBest from sklearn to return feature scores to understand the importance of each features with respect to the outcome.
+- Making use of selectKBest and r_regression from sklearn to return feature scores to understand the importance of each features with respect to the outcome.
 - After knowing which features are important, using of Recursive Feature Elimination with Cross Validation (RFECV) to find **how many** features should we use to best optimise the models
 - Logistic Regression model - sklearn
 - Random Forest classifier - sklearn
