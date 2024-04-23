@@ -14,7 +14,7 @@ This is a mini project that tackles a classification problem. We aim to leverage
 
 As we can see, breast cancer is the leading cause of death for women in Singapore. Early and accurate detection plays a crucial role in improving treatment outcomes and reducing mortality rates. By accurately predicting the malignancy of breast tumors, healthcare providers can intervene promptly and initiate appropriate treatment strategies.
 
-Hence we would like to find a optimal model that accurately predicts the malignancy of a tumor using the relevant features and the relevant **number** of features. 
+Hence we would like to find an optimal model that accurately predicts the malignancy of a tumor using the relevant features and the optimal **number** of features. 
 
 
 ## Models Used
