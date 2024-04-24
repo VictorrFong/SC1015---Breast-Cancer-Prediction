@@ -50,8 +50,8 @@ These features are critical measurements related to tumor textures, characterist
 - After knowing which features are important, using of `Recursive Feature Elimination with Cross Validation` (RFECV) to find **how many** features should we use to best optimise the models
 - `Logistic Regression model` - sklearn
 - `Random Forest classifier` - sklearn
-- `K-Nearest Neighbours classifier` and the iterative method to tune its key parameter- sklearn
-- Using `GridSearchCV` to do hyperparameter tuning
+- `K-Nearest Neighbours classifier` - sklearn
+- Using `GridSearchCV` and the iterative method to do hyperparameter tuning
 
 ## References
 https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data
