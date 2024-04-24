@@ -53,6 +53,9 @@ These features are critical measurements related to tumor textures, characterist
 - `K-Nearest Neighbours classifier` - sklearn
 - Using `GridSearchCV` and the iterative method to do hyperparameter tuning
 
+## Presentation Video 
+- https://youtu.be/6WyTn8yf3gs
+
 ## References
 https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data/data
 
