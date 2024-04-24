@@ -16,6 +16,19 @@ As we can see, breast cancer is the leading cause of death for women in Singapor
 
 Hence we would like to find an optimal model that accurately predicts the malignancy of a tumor using the relevant features and the optimal **number** of features. 
 
+## Approach
+1. **Data Collection**: Gathered the relevant data which includes various features such as tumor size, shape, texture and margins from Kaggle.
+   
+2. **Exploratory Data Analysis**: Conducted exploratory analysis to gain insights into the distribution and relationship among the features and the response variable. This step includes data visualisation and statistical analysis to identify important patterns and correlations.
+   
+3. **Feature Selection**: Employed various techniques such as correlation analysis, z-scores and feature scores to select the most relevant features for inclusion in the predictive models
+   
+4. **Model Development**: Utilised various machine learning algorithms to build predictive models. We also employed different techniques such as cross validation and hyperparameter tuning to optimise model performance
+   
+5. **Optimization of Feature Number**: Explored the impact of varying the number of features on model performance to identify the optimal subset that maximises predictive accuracy while minimising complexities
+   
+6. **Evaluation**: Evaluated the performance of the developed models using accuracy and false negative rates. False negatives occur when the classifier incorrectly predicts a tumor as benign (negative) when it is actually malignant. In our case, false negative rates will be more costly as patients with undetected malignant tumors may not receive timely medical intervention and treatment, leading to delays in treatment.
+
 
 ## Models Used
   - Logistic Regression
@@ -50,8 +63,9 @@ These features are critical measurements related to tumor textures, characterist
 - After knowing which features are important, using of `Recursive Feature Elimination with Cross Validation` (RFECV) to find **how many** features should we use to best optimise the models
 - `Logistic Regression model` - sklearn
 - `Random Forest classifier` - sklearn
-- `K-Nearest Neighbours classifier` - sklearn
-- Using `GridSearchCV` and the iterative method to do hyperparameter tuning
+- `K-Nearest Neighbours classifier` and the iterative method to tune its key parameter- sklearn
+- Using `GridSearchCV` to do hyperparameter tuning
+- Considered other model evaluation metrics apart from accuracy like `f1`, `precision` and `balanced accuracy`
 
 ## Presentation Video 
 - https://youtu.be/6WyTn8yf3gs
